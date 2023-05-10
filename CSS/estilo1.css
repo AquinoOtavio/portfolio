@@ -1,0 +1,137 @@
+nav#menu ul{ /* estilo da lista geral*/
+    list-style:none; /*remover o estilo da lista */
+    text-transform: uppercase; /* colocar letras maiusculos */
+    margin: 0 auto; /* itens da lista no centro*/
+    position:relative; /*posição da lista relativa */
+    text-align: center; /*alinhamento do texto centralizado  */
+}
+
+nav#menu li{ /*estilo d item*/
+    display: inline-block; /*posicionamento do item */
+    background-color: white; /* cor de fundo da lista */
+    padding: 10px; /* espacamento entre os itens */
+    transition: background-color 1s; /*transiçao de aproximar o mouse */
+
+}
+
+nav#menu{
+    display: block; /*bloqueia a movimentação do display */
+    color: red;
+}
+
+nav#menu li:hover{
+    background-color: lavender; /* troca a cor de fundo do botao de branco para outra*/
+}
+nav#menu a{
+    color: cornflowerblue;
+    text-decoration: none;/* tira o estilo do texto*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*estilo da fonte */
+    font-size: 15px;
+}
+
+.cabecalho h1{
+    color: blue;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:  0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.cabecalho h2{
+    color:darkgreen;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:  0 auto;
+    position: relative;
+    text-align: center;
+}
+.corpo img{
+    padding-top: 15px; /*espaçamentoentre objeto e o topo da pagina */
+    width: 400px;
+    height: 250px;
+}
+
+.corpo{
+    margin: 0 auto;
+    text-align: center;
+    background-color: beige;
+
+}
+
+div#interface{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+
+}
+
+div#interface2{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    
+  
+
+}
+
+.tabela img{
+    width: 200px;
+    height: 150px;
+
+}
+
+    .tabela{
+        margin: 0 auto;
+        text-align: center;
+
+    
+     
+
+    }
+
+    .tabela h3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: red;
+        text-shadow: black;
+    }
+
+    .tabela2{
+       
+        margin: 0 auto;
+        width: 15   00px;
+        height: 1200px;
+    
+        color: chocolate;
+        text-align: center ; color: rgb(0, 0, 0); border-radius: 5px;
+        text-shadow: 15px;
+               
+                
+       
+        
+        
+           
+
+    }
+
+    .button {
+        background-color:rgb(177, 98, 255);
+        color:white;
+        padding: 5px;
+        transition: 1s;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        list-style-position: inside;
+        }
+
+    .texto{
+        background-color: rgb(202, 70, 70);
+        border-bottom: thin;
+        border: white;
+        align-items: center;
+    }
+
+        
+
+
